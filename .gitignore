@@ -1,0 +1,45 @@
+# ==========================================
+# .NET / C# standard ignores
+# ==========================================
+bin/
+obj/
+TestResults/
+
+# Visual Studio / Visual Studio Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Nuget packages
+*.nupkg
+packages/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# jbd-terrain-diffusion specific ignores
+# ==========================================
+# Ignore raw and processed raster data
+*.tif
+*.tiff
+*.dem
+*.asc
+*.hgt
+
+# Ignore point cloud data (just in case)
+*.las
+*.laz
+
+# Ignore any local test data directories
+# (You can create a 'data/' folder locally and put your test grids in there)
+data/
+test-data/
